@@ -3,18 +3,15 @@ html{
 }
 
 h1{
-    margin: 1em 0 0.5em 0;
     color: #343434;
-    font-weight: normal;
-    font-family: 'Ultra', sans-serif;  
-    font-size: 36px;
+    font-family: 'Cabana', sans-serif;  
+    font-size: 64px;
     line-height: 42px;
     text-transform: uppercase;
     text-shadow: 0 2px white, 0 3px #777;
 }
 
 h2{
-    margin: 1em 0 0.5em 0;
     color: #343434;
     font-weight: normal;
     font-size: 30px;
@@ -48,4 +45,20 @@ img{
 .small_image{
     width: 300px;
     height: 250px;
+}
+
+a{
+    font-family: 'Orienta', sans-serif;
+    font-size: 24px;
+    font-style: oblique;
+}
+
+@font-face {
+	font-family: 'Cabana';
+	src: url('../fonts/fonts/cabana.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/fonts/cabana.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/fonts/cabana.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/fonts/cabana.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/fonts/cabana.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/fonts/cabana.svg#cabana') format('svg'); /* Chrome < 4, Legacy iOS */
 }
